@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Read testimonials from students and parents who have experienced the benefits of Fanfave Tutoring Services. Hear about their success stories and how our personalized tutoring has helped them achieve their academic goals." />
+    <meta name="description" content="About Fanfave Tutoring Services - Learn more about our mission, values, and the team behind our personalized tutoring services." />
     <meta
       name="keywords"
       content="tutoring services, personalized tutoring, academic support, homework help, test preparation, skill development, experienced tutors, educational journey"
@@ -21,23 +21,23 @@
     <meta name="twitter:title" content="Fanfave Tutoring Services" />
     <meta
       name="twitter:description"
-      content="Read testimonials from students and parents who have experienced the benefits of Fanfave Tutoring Services. Hear about their success stories and how our personalized tutoring has helped them achieve their academic goals."
+      content="Providing personalized tutoring services that cater to individual learning styles and needs."
     />
     <meta name="twitter:image" content="static/og-image.jpg" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <script src="script/main.js" defer></script>
-    <title>Fanfave Tutoring Services | Testimonials</title>
+    <script type="module" src="script/main.js"></script>
+    <title>Fanfave Tutoring Services | About Us</title>
   </head>
   <body>
     <header>
-      <img
+        <img
         src="images/book-open-cover.svg"
         alt="Home Icon"
         width="512"
         height="512"
         loading="lazy"
-      />
+      >
       <span>Fanfave Tutoring Services</span>
       <button
         id="ham-btn"
@@ -47,17 +47,40 @@
       ></button>
       <nav id="nav-bar" class="navigation" aria-label="Main site navigation">
         <ul>
-          <li ><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <li class="current"><a href="testimonials.html">Testimonials</a></li>
+          <li class="current"><a href="project-help.html">Project Help</a></li>
+          <li><a href="bookings.html">Bookings</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        <section class="testimonials">
-        
+        <section class="project-help">
+            <h1>Request Project Research Help</h1>
+            <p>Submit your project topic and details, and our consultants will assist you.</p>
+
+            <form id="project-help-form">
+                <label for="student-name">Your Name</label>
+                <input type="text" id="student-name" name="studentName" placeholder="Enter your full name" required>
+
+                <label for="student-email">Email</label>
+                <input type="email" id="student-email" name="studentEmail" placeholder="Enter your email" required>
+
+                <label for="project-topic">Project Topic</label>
+                <input type="text" id="project-topic" name="projectTopic" placeholder="Enter your project topic" required>
+
+                <label for="deadline">Deadline</label>
+                <input type="date" id="deadline" name="deadline" required>
+
+                <label for="additional-details">Additional Details</label>
+                <textarea id="additional-details" name="additionalDetails" placeholder="Any other instructions or notes" rows="4"></textarea>
+
+                <button type="submit">Submit Request</button>
+            </form>
+
+            <p class="note">*After submission, our team will contact you via email with guidance and next steps.</p>
+        </section>
       
 
 

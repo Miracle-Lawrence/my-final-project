@@ -1,3 +1,10 @@
+import { loadServices } from "./services.js";
+import { loadSubjects } from "./subject.js";
+import { loadTestimonials } from "./testimonial.js";
+import { initBookingForm } from "./booking.js";
+import { initContactForm } from "./contact.js";
+import { initMap } from "./map.js";
+
 // ==== Set footer year and last modified ====
 const currentYear = new Date().getFullYear();
 const footer = document.querySelector("footer");
@@ -20,3 +27,21 @@ if (navButton && navBar) {
     navBar.classList.toggle("show");
   });
 }
+
+// ==== Load Services ====
+loadServices("services-container");
+
+// ==== Load Subjects ====
+loadSubjects("subjects-container");
+
+// ==== Load Testimonials ====
+loadTestimonials("testimonials-container");
+
+// ==== Initialize Booking Form ====
+initBookingForm("booking-form");
+
+// ==== Initialize Contact Form ====
+initContactForm("contact-form");
+
+// ==== Initialize Map ====
+initMap("map");

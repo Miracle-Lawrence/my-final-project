@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Primary",
+    "subjects": ["Mathematics", "English", "Science", "Social Studies"]
+  },
+  {
+    "category": "Secondary",
+    "subjects": ["Mathematics", "English", "Physics", "Chemistry", "Biology"]
+  },
+  {
+    "category": "Tertiary",
+    "subjects": ["Calculus", "Programming", "Data Analysis", "Project Research"]
+  },
+  {
+    "category": "Tech Skills",
+    "subjects": [
+      "Web Development",
+      "Python Programming",
+      "Excel & Data Analysis"
+    ]
+  }
+]

@@ -254,6 +254,494 @@ footer div {
   color: var(--body-text);
 }
 
+.testimonial-card {
+    background: var(--content-contrast-text-color);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.testimonial-card p {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.testimonial-card h4 {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.testimonial-card span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-align: right;
+}
+.testimonials h2 {
+    color: var(--main-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+
+.services-page h1 {
+    color: var(--main-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+.services-page p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--body-text);
+}
+.service-card {
+  
+    background: var(--content-contrast-text-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 0.8rem;
+}
+
+.service-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+
+}
+
+.service-card p {
+    margin-bottom: 0.5rem;
+}
+
+.service-card .btn {
+    display: inline-block;
+    background-color: var(--accent-2);
+    color: var(--content-contrast-text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.main-column .services-page h1 {
+    color: var(--main-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+    padding-bottom: 0.25rem;
+
+}
+.subject-category {
+    background: var(--content-contrast-text-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.subject-category h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.subject-category ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.subject-category li {
+    margin-bottom: 0.3rem;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact {
+  background: var(--content-contrast-text-color);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-top: 1rem;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--main-text);
+  font-size: 1rem;
+}
+
+/* ===== FORM LAYOUT ===== */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* ===== INPUT FIELDS ===== */
+#contact-form input,
+#contact-form textarea {
+  padding: 0.8rem .1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+/* Focus effect */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.1);
+}
+
+/* Textarea sizing */
+#contact-form textarea {
+  min-height: 10px;
+  resize: vertical;
+}
+
+/* ===== BUTTON ===== */
+#contact-form button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+#contact-form button:hover {
+  background: #1565C0;
+  transform: translateY(-1px);
+}
+
+/* Button click effect */
+#contact-form button:active {
+  transform: translateY(0);
+}
+
+/* ===== WHATSAPP BUTTON ===== */
+.whatsapp {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.whatsapp a {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.whatsapp a:hover {
+  background: #1ebe5d;
+  transform: translateY(-1px);
+}
+.contact-links {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-links p {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin-left: 5px;
+  text-decoration: none;
+  background: #25D366; /* WhatsApp green */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+
+/* ===== MAP SECTION ===== */
+.map-section {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-top: 1rem;
+}
+
+/* Map title */
+.map-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--body-text);
+  
+}
+
+/* Map iframe */
+.map-section iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Hover effect */
+.map-section iframe:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+}
+
+.project-help {
+  margin: 50px auto;
+  padding: 30px;
+  background: var(--content-contrast-text-color);
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.project-help h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.project-help p {
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+#project-help-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#project-help-form label {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: var(--main-text);
+}
+
+#project-help-form input,
+#project-help-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+#project-help-form label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  display: block;
+  color: var(--main-text);
+}
+
+#project-help-form input:focus,
+#project-help-form textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 5px rgba(30,136,229,0.2);
+}
+
+#project-help-form textarea {
+  resize: vertical;
+}
+
+#project-help-form button {
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#project-help-form button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.booking {
+  margin: 50px auto;
+  padding: 30px;
+  background: var(--content-contrast-text-color);
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.booking h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.booking p {
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+#booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#booking-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: var(--main-text);
+  font-size: 0.9rem;
+}
+
+#booking-form input,
+#booking-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  background: var(--content-contrast-text-color);
+  transition: all 0.3s ease;
+}
+
+#booking-form input:focus,
+#booking-form select:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0,123,255,0.2);
+}
+
+#booking-form button {
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #28a745;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#booking-form button:hover {
+  background: #1e7e34;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Calendar placeholder styling */
+.calendar-placeholder {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  border: 2px dashed #ccc;
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+.contact-page {
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.contact-page h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.contact-page p {
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+#contact-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: var(--main-text);
+  font-size: 0.9rem;
+  
+}
+.calendar-placeholder {
+
+  margin-top: 30px;
+  padding: 20px;
+
+  background: #ffffff;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+}
+
+.calendar-event {
+
+  padding: 12px;
+  margin-bottom: 10px;
+
+  background: #f4f7fb;
+
+  border-left: 5px solid #1E88E5;
+
+  border-radius: 6px;
+
+}
 
 
 
@@ -334,4 +822,63 @@ footer {
   display: block;
   margin-bottom: 0;
 }
+/* ===== MAIN 2-COLUMN LAYOUT ===== */
+.home-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Big + Small column */
+  gap: 2rem;
+  padding: 2rem;
+  align-items: start;
+}
+
+/* ===== SERVICES & SUBJECTS GRID ===== */
+#services-container,
+#subjects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* Optional card styling */
+.service-card,
+.subject-category {
+  background: var(--content-contrast-text-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+ 
+}
+.map-section iframe {
+    height: 250px;
+  }
+
+/* Side column styling */
+.side-column section {
+  margin-bottom: 2rem;
+}
+.contact {
+    padding: 1.5rem;
+  }
+
+  .project-help {
+    margin: 50px;
+    padding: 20px;
+  }
+.booking {
+    margin: 20px;
+    padding: 20px;
+  }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .home-layout {
+    grid-template-columns: 1fr; /* Stack on mobile */
+  }
+
+  #services-container,
+  #subjects-container {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+}
+
 }

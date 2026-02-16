@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Online Tutoring",
+    "description": "Learn from anywhere in the world with our qualified online tutors. Subjects include Math, English, Science, and more.",
+    "link": "booking.html"
+  },
+  {
+    "title": "Home Lessons (Abuja)",
+    "description": "Personalized home tutoring in Abuja for students who prefer in-person guidance. We follow safety and health guidelines.",
+    "link": "booking.html"
+  },
+  {
+    "title": "Project Research Assistance",
+    "description": "We help tertiary students with project research, topic guidance, and report preparation. Submit your requests online easily.",
+    "link": "project-help.html"
+  },
+  {
+    "title": "Exam Preparation",
+    "description": "Specialized sessions to prepare for exams and assessments. Includes tips, mock tests, and revision strategies.",
+    "link": "booking.html"
+  }
+]
