@@ -496,7 +496,7 @@ footer div {
 }
 
 .resources h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
   color: var(--main-text);
   font-weight: 600;
@@ -505,11 +505,12 @@ footer div {
 /* ===== Controls ===== */
 .resources select,
 .resources button {
-  padding: 0.7rem 1rem;
+  padding: 0.6rem 1rem;
   margin: 0.5rem;
   border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .resources select {
@@ -519,15 +520,16 @@ footer div {
 }
 
 .resources button {
-  background-color: #1e3a8a;
+  background-color: var(--accent-2);
   color: white;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  padding: 0.6rem;
 }
 
 .resources button:hover {
-  background-color: #2563eb;
+  background-color: #1ebe5d;
   transform: translateY(-2px);
 }
 
@@ -581,14 +583,14 @@ footer div {
 }
 
 .country-info h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
   color: var(--main-text);
 }
 
 .country-info input,
 .country-info button {
-  padding: 0.7rem 1rem;
+  padding: 0.6rem 1rem;
   margin: 0.5rem;
   border-radius: 6px;
   border: 1px solid #ccc;
@@ -596,15 +598,16 @@ footer div {
 }
 
 .country-info button {
-  background-color: #1e3a8a;
+  background-color: var(--accent-2);
   color: white;
   border: none;
   cursor: pointer;
   transition: 0.3s ease;
+  font-size: 0.9rem;
 }
 
 .country-info button:hover {
-  background-color: #2563eb;
+  background-color: #1ebe5d;
 }
 
 /* ===== Country Card ===== */
