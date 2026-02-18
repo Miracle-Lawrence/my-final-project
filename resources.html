@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Fanfave Tutoring Services offers personalized tutoring for students of all ages. Our experienced tutors provide academic support, homework help, and test preparation tailored to each student's needs." />
+    <meta name="description" content="Fanfave Tutoring Services provides personalized academic support and tutoring services for students of all levels." />
     <meta
       name="keywords"
       content="tutoring services, personalized tutoring, academic support, homework help, test preparation, skill development, experienced tutors, educational journey"
@@ -27,17 +27,17 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="styles/styles.css" />
     <script type="module" src="script/main.js"></script>
-    <title>Fanfave Tutoring Services | Our Services</title>
+    <title>Fanfave Tutoring Services | About Us</title>
   </head>
   <body>
     <header>
-      <img
+        <img
         src="images/book-open-cover.svg"
         alt="Home Icon"
         width="512"
         height="512"
         loading="lazy"
-      />
+      >
       <span>Fanfave Tutoring Services</span>
       <button
         id="ham-btn"
@@ -48,46 +48,44 @@
       <nav id="nav-bar" class="navigation" aria-label="Main site navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="services.html">Services</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a href="project-help.html">Project Help</a></li>
           <li><a href="bookings.html">Bookings</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li ><a href="resources.html">Resources</a></li>
+          <li class="current"><a href="resources.html">Resources</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        <section class="services-page">
-            <h1>Our Services</h1>
-            <p>We offer a range of tutoring and project research services to help you succeed academically.</p>
+       <section class="resources">
+  <h2>Find Study Resources</h2>
 
-            <div class="service-cards">
-                <div class="service-card">
-                    <h2>Online Tutoring</h2>
-                    <p>Learn from anywhere in the world with our qualified online tutors. Subjects include Math, English, Science, and more.</p>
-                    <a href="bookings.html" class="btn">Book Now</a>
-                </div>
+  <select id="subjectSelect">
+    <option value="mathematics">Mathematics</option>
+    <option value="science">Science</option>
+    <option value="english">English</option>
+    <option value="history">History</option>
+  </select>
 
-                <div class="service-card">
-                    <h2>Home Lessons (Abuja)</h2>
-                    <p>Personalized home tutoring in Abuja for students who prefer in-person guidance. We follow safety and health guidelines.</p>
-                    <a href="bookings.html" class="btn">Book Now</a>
-                </div>
+  <button id="searchBooksBtn">Search</button>
 
-                <div class="service-card">
-                    <h2>Project Research Assistance</h2>
-                    <p>We help tertiary students with project research, topic guidance, and report preparation. Submit your requests online easily.</p>
-                    <a href="project-help.html" class="btn">Request Help</a>
-                </div>
+  <div id="booksContainer"></div>
+</section>
 
-                <div class="service-card">
-                    <h2>Exam Preparation</h2>
-                    <p>Specialized sessions to prepare for exams and assessments. Includes tips, mock tests, and revision strategies.</p>
-                    <a href="bookings.html" class="btn">Book Now</a>
-                </div>
-            </div>
-        </section>
-      
+<section class="country-info">
+  <h2>Explore Country Information</h2>
+
+  <input 
+    type="text" 
+    id="countryInput" 
+    placeholder="Enter a country (e.g., Nigeria, Canada)"
+  />
+
+  <button id="searchCountryBtn">Search Country</button>
+
+  <div id="countryContainer"></div>
+</section>
+
     </main>
     <footer>
       <div class="contact-info">

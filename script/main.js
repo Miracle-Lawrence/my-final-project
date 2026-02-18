@@ -3,7 +3,8 @@ import { loadSubjects } from "./subject.js";
 import { loadTestimonials } from "./testimonial.js";
 import { initBookingForm } from "./booking.js";
 import { initContactForm } from "./contact.js";
-import { initMap } from "./map.js";
+import { initBookSearch } from "./resources.js";
+import { initCountrySearch } from "./countries.js";
 
 // ==== Set footer year and last modified ====
 const currentYear = new Date().getFullYear();
@@ -43,5 +44,11 @@ initBookingForm("booking-form");
 // ==== Initialize Contact Form ====
 initContactForm("contact-form");
 
-// ==== Initialize Map ====
-initMap("map");
+initBookSearch();
+
+initCountrySearch();
+
+
+
+
+
