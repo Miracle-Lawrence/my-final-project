@@ -44,9 +44,26 @@ export function initBookSearch() {
 
   if (!button) return;
 
+  // Check if a subject was saved previously
+  const savedSubject = localStorage.getItem("lastSubject");
+
+  if (savedSubject) {
+    select.value = savedSubject;
+
+    // Automatically load saved subject books
+    fetchBooks(savedSubject).then((books) => {
+      if (books) renderBooks(books, container);
+    });
+  }
+
+  // Save subject when button is clicked
   button.addEventListener("click", async () => {
     const subject = select.value;
+
+    // Save to localStorage
+    localStorage.setItem("lastSubject", subject);
+
     const books = await fetchBooks(subject);
-    renderBooks(books, container);
+    if (books) renderBooks(books, container);
   });
 }
